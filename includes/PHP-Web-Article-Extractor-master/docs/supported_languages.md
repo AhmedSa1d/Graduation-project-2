@@ -1,0 +1,47 @@
+For this libraries language and keyword detection; there are currently a total of 43 supported languages:
+
+Language | Filename (dir: /res/stop_words/)
+--- | ---
+Arabic | ar.lst
+Armenian | hy.lst
+Basque | eu.lst
+Bengali | bn.lst
+Breton | br.lst
+Bulgarian | bg.lst
+Catalan | ca.lst
+Chinese | zh.lst
+Croatian | hr.lst
+Czech | cs.lst
+Danish | da.lst
+Dutch | nl.lst
+English | en.lst
+Esperanto | eo.lst
+Estonian | et.lst
+Finnish | fi.lst
+French | fr.lst
+Galician | gl.lst
+German | de.lst
+Greek | el.lst
+Hebrew | he.lst
+Hindi | hi.lst
+Hungarian | hu.lst
+Indonesian | id.lst
+Irish | ga.lst
+Italian | it.lst
+Japanese | ja.lst
+Korean | ko.lst
+Latin | la.lst
+Latvian | lv.lst
+Marathi | mr.lst
+Norwegian | no.lst
+Persian | fa.lst
+Polish | pl.lst
+Portuguese | pt.lst
+Romanian | ro.lst
+Russian | ru.lst
+Slovak | sk.lst
+Slovenian | sl.lst
+Spanish | es.lst
+Swedish | sv.lst
+Thai | th.lst
+Turkish | tr.lst

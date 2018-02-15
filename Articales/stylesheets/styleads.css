@@ -1,0 +1,163 @@
+.inImage-warper
+{
+  position: relative;
+  max-width: 100%;
+
+border: 1px solid #000;
+}
+
+
+
+.inImage-box
+{
+
+
+  width: 100px;
+  height: 100px;
+  position: absolute;
+
+  z-index: 999990;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  opacity: 1;
+  display: block;
+  margin: 0px !important;
+  padding: 0px !important;
+
+}
+
+.inImage-box *
+{
+  box-sizing: border-box;
+}
+.inImage-icon
+{
+  text-align: center;
+  padding: 5px;
+  border-radius: 50%;
+  top:37%;
+  left: 37%;
+  position: absolute;
+  z-index: 9999999;
+  box-shadow: 1px 1px 5px #888888;
+  background-color: #fff;
+  color: #9B59B6;
+  font-size: 18px;
+}
+
+.inImage-icon::after
+{
+
+  content: "";
+    position: absolute;
+    top: 94%;
+    right: 32%;
+    border-width: 5px;
+    border-style: solid;
+
+    border-color: #fff transparent transparent transparent;
+
+}
+
+@keyframes popmarker_pulse{0%{transform:scale(0.1,0.1);opacity:1;border-width:50px;}100%{transform:scale(1,1);opacity:0;border-width:0;}}
+.ball
+{
+
+  border: 1px solid #000;
+
+  height: 100%;
+  width: 100%;
+  background: rgba(255,255,255,0.5);
+  position: absolute;
+  border-radius: 50%;
+  border: 0px solid white;
+  animation-name: popmarker_pulse;
+  animation-duration: 3s;
+  animation-timing-function: initial;
+  animation-delay: initial;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+  animation-fill-mode: initial;
+  animation-play-state: initial;e;
+}
+
+.ball-1
+{
+
+}
+.ball-2
+{
+  animation-delay: -3s;
+
+}
+.ball-3
+{
+    animation-delay: -3.75s;
+
+}
+.ball-4
+{
+      animation-delay: -3.50s;
+
+}
+.inImage-ads
+{
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 1s;
+      position: absolute;
+      top: 70px;
+      left: -140px;
+      z-index: 1000030!important;
+      margin: 0 auto !important;
+      box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      -webkit-box-sizing: content-box;
+      font-family: 'Open Sans', sans-serif !important;
+      font-weight: 300 !important;
+      line-height: 140% !important;
+      overflow: hidden !important;
+      padding: 10px !important;
+      font-size: 12px !important;
+      background: rgba(255,255,255,0.9) !important;
+      border: 0px solid rgb(255,255,255) !important;
+      border-radius: 3px !important;
+      width: 350px !important;
+      box-shadow: rgba(0,0,0,0.48) 2px 2px 2px !important
+}
+
+
+
+.inImage-box:hover .inImage-ads {
+    visibility: visible;
+    opacity: 1;
+}
+.inImage-ads img{
+  display: block !important;
+    margin: 3px 10px 3px 0px !important;
+    float: left !important;
+    width: 125px !important;
+    border: 1px solid rgb(221,221,221) !important;
+    padding: 4px 4px 4px 4px !important;
+    background: rgb(255,255,255) !important;
+}
+.inImage-ads .title
+{
+    font-size: 14px;
+  display: block;
+  overflow: hidden;
+  padding: 5px 0;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.inImage-ads .content
+{
+  font-family: 'Open Sans',sans-serif !important;
+  line-height: 18px !important;
+  font-size: 12px !important;
+  color: rgb(0,0,0) !important;
+  text-shadow: none !important;
+  text-align: left !important;
+}

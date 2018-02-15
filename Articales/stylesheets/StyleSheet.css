@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 23, 2016, 12:27:26 AM
+    Author     : ABUKHALIL
+*/
+body{
+    width: 100%;
+    min-height: 1000px;  
+    background-color: #f1f2f1;
+    margin: 0px;
+    padding: 0px;
+}
+#header{
+    width: 100%;
+    min-height: 436px;
+    // border: 1px solid #000;
+}
+#content{
+    width: 100%;
+    min-height: 1382px;
+    // border: 1px solid #000;
+}
+article{
+    min-height: 1000px;
+    width: 65.4%;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding: 1%;
+    //border: 1px solid #000;
+    font-family: "Open Sans";
+    display:  inline-block;
+    
+}
+article #title{
+    height: 50px;
+    width: 100%;
+   //border: 1px solid #000;
+}
+#title #t_photo{
+    height: 100%;
+    width: 10%;
+    //margin-left: auto;
+    float: left;
+    border-radius: 50%;
+    overflow:  hidden;
+    margin-right: 10px;
+}
+#title #t_photo img{
+    height: 100%;
+    width: 100%;
+}
+#title #t_title{
+    width: 80%;
+    height: 100%;
+    font-family: 'open sans';
+    font-size: 20px;
+    font-weight: bold; 
+    color: #c0392b;
+}
+article #user{
+    width: 100%;
+    height: 25px;
+    margin-top: 30px;
+    display: inline-block;
+    border-top: 1px solid #b4b8b4;
+    //border: solid 1px #000;
+} 
+#user #u_photo{
+    width: 3%;
+    border-radius: 50%;
+    display: inline-block;
+    overflow:  hidden;
+    margin-right: 5px;
+}
+#user #u_photo img{
+    height: 100%;
+    width: 100%;
+}
+#user #u_name{
+    height: 100%;
+    font-family: 'open sans';
+    font-size: 12px; 
+    color: #c0392b;
+    display: inline-block;
+    overflow:  hidden;
+    margin-right: 50px;
+}
+#user #time_photo{
+    width: 3%;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+#user #time_photo img{
+    height: 100%;
+    width: 100%;
+}
+#user #time_text{
+    height: 100%;
+    font-family: 'open sans';
+    font-size: 12px; 
+    color: #c0392b;
+    display: inline-block;
+}
+article #article_body{
+    width: 100%;
+    min-height: 1064px;
+    //border: solid 1px #000;
+    margin-top: 64px;
+    display: inline-block;
+}
+#article_body #ar_body{
+    text-transform: capitalize;
+    width: 100%;
+    margin: auto;
+    min-height: 400px;
+    //border: solid 1px #000;
+    white-space: pre-wrap;
+    font-family: 'open sans';
+    font-size: 15px;
+}
+#article_body #ar_photo{
+    //border: solid 1px #000;
+    height: 400px;
+    width: 100%;
+    margin: auto;
+}
+#article_body #ar_photo img{
+    width: 100%;
+    height: 100%;
+}
+#sidebar{
+    min-height:  1000px;
+    width: 29.2%;
+    margin-top: 40px;
+    margin-right: 15px;
+    padding-left: 2px;
+    float: right;
+    border-left: 1px solid #b4b8b4;
+    //border: 1px solid #000;
+}
+#sidebar #s_title {
+    //border: solid 1px #000;
+    width: 100%;
+    height: 50px;
+    font-family: 'open sans';
+    font-size: 20px;
+    color: #ffffff ;
+    //padding-bottom: 25px;
+    //padding-left: 5px;
+    //text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #9b59b6 ;
+    line-height: 20px;
+}
+#sidebar .s_content{
+    height: 100px;
+    width: 100%;
+    margin-top: 25px;
+    //border: solid 1px #000;
+    display: inline-block;
+    border-bottom: 1px solid #b4b8b4;
+}
+#sidebar .s_content #s_photo{
+    float: left;
+    height: 80px;
+    width: 35%;
+   // border: solid 1px #000;
+    margin:10px;
+}
+#sidebar .s_content #s_photo img{
+    height: 100%;
+    width: 100%;
+}
+#sidebar .s_content #s_text a{
+    //border: solid 1px #000;
+    width: 55%;
+    margin-top: 10px;
+    height: 80px;
+    float: left;
+    font-family: 'open sans';
+    font-size: 20px;
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+    min-height: 188px;
+    // border: 1px solid #000
+}
